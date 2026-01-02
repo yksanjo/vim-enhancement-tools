@@ -1,9 +1,11 @@
 # Vim Enhancement Tools
 
-[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![GitHub](https://img.shields.io/badge/GitHub-yksanjo%2Fvim--enhancement--tools-181717?logo=github)](https://github.com/yksanjo/vim-enhancement-tools)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg?logo=python&logoColor=white)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Vim](https://img.shields.io/badge/vim-8.0%2B-brightgreen.svg)](https://www.vim.org/)
+[![Vim](https://img.shields.io/badge/vim-8.0%2B-brightgreen.svg?logo=vim)](https://www.vim.org/)
 [![Status](https://img.shields.io/badge/status-stable-success.svg)](https://shields.io/)
+[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 > Python-powered enhancements for Vim editor functionality
 
@@ -47,7 +49,7 @@ The Vim Enhancement Tools provide Python-powered analysis and navigation feature
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/vim-enhancement-tools.git
+   git clone https://github.com/yksanjo/vim-enhancement-tools.git
    cd vim-enhancement-tools
    ```
 
@@ -73,7 +75,7 @@ The Vim Enhancement Tools provide Python-powered analysis and navigation feature
 If you're using a Vim plugin manager like vim-plug, add this to your configuration:
 
 ```vim
-Plug 'yourusername/vim-enhancement-tools', { 'do': 'pip install -r requirements.txt' }
+Plug 'yksanjo/vim-enhancement-tools', { 'do': 'pip install -r requirements.txt' }
 ```
 
 ## 🎮 Usage
@@ -159,7 +161,7 @@ We welcome contributions! Here's how you can help:
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/vim-enhancement-tools.git
+git clone https://github.com/yksanjo/vim-enhancement-tools.git
 cd vim-enhancement-tools
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -175,8 +177,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you encounter any issues or have questions:
 
 - Check the [documentation](docs/)
-- Open an [issue](https://github.com/yourusername/vim-enhancement-tools/issues)
-- Submit a [pull request](https://github.com/yourusername/vim-enhancement-tools/pulls)
+- Open an [issue](https://github.com/yksanjo/vim-enhancement-tools/issues)
+- Submit a [pull request](https://github.com/yksanjo/vim-enhancement-tools/pulls)
 
 ## 🙏 Acknowledgments
 
